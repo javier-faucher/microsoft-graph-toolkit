@@ -119,3 +119,17 @@ export const pasteListOfUserIds = () => html`
 <!-- 48d31887-5fad-4d73-a9f5-3c356e68a038,24fcbca3-c3e2-48bf-9ffc-c7f81b81483d -->
 <!-- MeganB@M365x214355.onmicrosoft.com;martin@musale.com;BrianJ@M365x214355.onmicrosoft.com-->
 `;
+
+
+export const menuOverFlowBug = () => html`
+
+  <div class="large-box"> hello world</div>
+
+  <mgt-people-picker></mgt-people-picker>
+  <style>
+    .large-box{
+      padding: 270px;
+      border: 1px solid red;
+    }
+  </style>
+ `;
